@@ -1,0 +1,1864 @@
+{
+    "action": "work_package:updated",
+    "work_package": {
+        "_type": "WorkPackage",
+        "id": 45,
+        "lockVersion": 12,
+        "subject": "Check discord web hook notification",
+        "description": {
+            "format": "markdown",
+            "raw": "",
+            "html": ""
+        },
+        "scheduleManually": false,
+        "startDate": "2023-07-10",
+        "dueDate": "2023-07-10",
+        "derivedStartDate": null,
+        "derivedDueDate": null,
+        "estimatedTime": null,
+        "derivedEstimatedTime": null,
+        "duration": "P1D",
+        "ignoreNonWorkingDays": false,
+        "spentTime": "PT0S",
+        "percentageDone": 0,
+        "createdAt": "2023-07-10T04:39:31Z",
+        "updatedAt": "2023-07-10T05:17:01Z",
+        "laborCosts": "0.00 EUR",
+        "materialCosts": "0.00 EUR",
+        "overallCosts": "0.00 EUR",
+        "remainingTime": null,
+        "_embedded": {
+            "attachments": {
+                "_type": "Collection",
+                "total": 0,
+                "count": 0,
+                "_embedded": {
+                    "elements": []
+                },
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/work_packages/45/attachments"
+                    }
+                }
+            },
+            "relations": {
+                "_type": "Collection",
+                "total": 0,
+                "count": 0,
+                "_embedded": {
+                    "elements": []
+                },
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/work_packages/45/relations"
+                    }
+                }
+            },
+            "type": {
+                "_type": "Type",
+                "id": 1,
+                "name": "Task",
+                "color": "#1A67A3",
+                "position": 1,
+                "isDefault": true,
+                "isMilestone": false,
+                "createdAt": "2023-07-05T08:04:03Z",
+                "updatedAt": "2023-07-05T08:04:03Z",
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/types/1",
+                        "title": "Task"
+                    }
+                }
+            },
+            "priority": {
+                "_type": "Priority",
+                "id": 8,
+                "name": "Normal",
+                "position": 2,
+                "color": "#74C0FC",
+                "isDefault": true,
+                "isActive": true,
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/priorities/8",
+                        "title": "Normal"
+                    }
+                }
+            },
+            "project": {
+                "_type": "Project",
+                "id": 6,
+                "identifier": "devkraft",
+                "name": "DevKraft",
+                "active": true,
+                "public": false,
+                "description": {
+                    "format": "markdown",
+                    "raw": "",
+                    "html": ""
+                },
+                "createdAt": "2023-07-07T10:27:33Z",
+                "updatedAt": "2023-07-07T10:27:33Z",
+                "statusExplanation": {
+                    "format": "markdown",
+                    "raw": "",
+                    "html": ""
+                },
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/projects/6",
+                        "title": "DevKraft"
+                    },
+                    "createWorkPackage": {
+                        "href": "/api/v3/projects/6/work_packages/form",
+                        "method": "post"
+                    },
+                    "createWorkPackageImmediately": {
+                        "href": "/api/v3/projects/6/work_packages",
+                        "method": "post"
+                    },
+                    "workPackages": {
+                        "href": "/api/v3/projects/6/work_packages"
+                    },
+                    "storages": [],
+                    "categories": {
+                        "href": "/api/v3/projects/6/categories"
+                    },
+                    "versions": {
+                        "href": "/api/v3/projects/6/versions"
+                    },
+                    "memberships": {
+                        "href": "/api/v3/memberships?filters=%5B%7B%22project%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%226%22%5D%7D%7D%5D"
+                    },
+                    "types": {
+                        "href": "/api/v3/projects/6/types"
+                    },
+                    "update": {
+                        "href": "/api/v3/projects/6/form",
+                        "method": "post"
+                    },
+                    "updateImmediately": {
+                        "href": "/api/v3/projects/6",
+                        "method": "patch"
+                    },
+                    "delete": {
+                        "href": "/api/v3/projects/6",
+                        "method": "delete"
+                    },
+                    "schema": {
+                        "href": "/api/v3/projects/schema"
+                    },
+                    "ancestors": [],
+                    "parent": {
+                        "href": null
+                    },
+                    "status": {
+                        "href": null
+                    }
+                }
+            },
+            "status": {
+                "_type": "Status",
+                "id": 1,
+                "name": "New",
+                "isClosed": false,
+                "color": "#1098AD",
+                "isDefault": true,
+                "isReadonly": false,
+                "defaultDoneRatio": null,
+                "position": 1,
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/statuses/1",
+                        "title": "New"
+                    }
+                }
+            },
+            "author": {
+                "_type": "User",
+                "id": 7,
+                "name": "Arsh Deep Singh",
+                "createdAt": "2023-07-07T08:23:04Z",
+                "updatedAt": "2023-07-10T04:15:36Z",
+                "login": "arshdeep@devkraft.in",
+                "admin": true,
+                "firstName": "Arsh Deep",
+                "lastName": "Singh",
+                "email": "arshdeep@devkraft.in",
+                "avatar": "https://secure.gravatar.com/avatar/4565e8b956e03d46e31e127123f5344a?default=404\u0026secure=true",
+                "status": "active",
+                "identityUrl": null,
+                "language": "en",
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/users/7",
+                        "title": "Arsh Deep Singh"
+                    },
+                    "memberships": {
+                        "href": "/api/v3/memberships?filters=%5B%7B%22principal%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%227%22%5D%7D%7D%5D",
+                        "title": "Members"
+                    },
+                    "showUser": {
+                        "href": "/users/7",
+                        "type": "text/html"
+                    },
+                    "updateImmediately": {
+                        "href": "/api/v3/users/7",
+                        "title": "Update arshdeep@devkraft.in",
+                        "method": "patch"
+                    },
+                    "lock": {
+                        "href": "/api/v3/users/7/lock",
+                        "title": "Set lock on arshdeep@devkraft.in",
+                        "method": "post"
+                    },
+                    "delete": {
+                        "href": "/api/v3/users/7",
+                        "title": "Delete arshdeep@devkraft.in",
+                        "method": "delete"
+                    }
+                }
+            },
+            "responsible": {
+                "_type": "User",
+                "id": 7,
+                "name": "Arsh Deep Singh",
+                "createdAt": "2023-07-07T08:23:04Z",
+                "updatedAt": "2023-07-10T04:15:36Z",
+                "login": "arshdeep@devkraft.in",
+                "admin": true,
+                "firstName": "Arsh Deep",
+                "lastName": "Singh",
+                "email": "arshdeep@devkraft.in",
+                "avatar": "https://secure.gravatar.com/avatar/4565e8b956e03d46e31e127123f5344a?default=404\u0026secure=true",
+                "status": "active",
+                "identityUrl": null,
+                "language": "en",
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/users/7",
+                        "title": "Arsh Deep Singh"
+                    },
+                    "memberships": {
+                        "href": "/api/v3/memberships?filters=%5B%7B%22principal%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%227%22%5D%7D%7D%5D",
+                        "title": "Members"
+                    },
+                    "showUser": {
+                        "href": "/users/7",
+                        "type": "text/html"
+                    },
+                    "updateImmediately": {
+                        "href": "/api/v3/users/7",
+                        "title": "Update arshdeep@devkraft.in",
+                        "method": "patch"
+                    },
+                    "lock": {
+                        "href": "/api/v3/users/7/lock",
+                        "title": "Set lock on arshdeep@devkraft.in",
+                        "method": "post"
+                    },
+                    "delete": {
+                        "href": "/api/v3/users/7",
+                        "title": "Delete arshdeep@devkraft.in",
+                        "method": "delete"
+                    }
+                }
+            },
+            "assignee": {
+                "_type": "User",
+                "id": 7,
+                "name": "Arsh Deep Singh",
+                "createdAt": "2023-07-07T08:23:04Z",
+                "updatedAt": "2023-07-10T04:15:36Z",
+                "login": "arshdeep@devkraft.in",
+                "admin": true,
+                "firstName": "Arsh Deep",
+                "lastName": "Singh",
+                "email": "arshdeep@devkraft.in",
+                "avatar": "https://secure.gravatar.com/avatar/4565e8b956e03d46e31e127123f5344a?default=404\u0026secure=true",
+                "status": "active",
+                "identityUrl": null,
+                "language": "en",
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/users/7",
+                        "title": "Arsh Deep Singh"
+                    },
+                    "memberships": {
+                        "href": "/api/v3/memberships?filters=%5B%7B%22principal%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%227%22%5D%7D%7D%5D",
+                        "title": "Members"
+                    },
+                    "showUser": {
+                        "href": "/users/7",
+                        "type": "text/html"
+                    },
+                    "updateImmediately": {
+                        "href": "/api/v3/users/7",
+                        "title": "Update arshdeep@devkraft.in",
+                        "method": "patch"
+                    },
+                    "lock": {
+                        "href": "/api/v3/users/7/lock",
+                        "title": "Set lock on arshdeep@devkraft.in",
+                        "method": "post"
+                    },
+                    "delete": {
+                        "href": "/api/v3/users/7",
+                        "title": "Delete arshdeep@devkraft.in",
+                        "method": "delete"
+                    }
+                }
+            },
+            "customActions": [],
+            "costsByType": {
+                "_type": "Collection",
+                "total": 0,
+                "count": 0,
+                "_embedded": {
+                    "elements": []
+                },
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/work_packages/45/summarized_costs_by_type"
+                    }
+                }
+            }
+        },
+        "_links": {
+            "attachments": {
+                "href": "/api/v3/work_packages/45/attachments"
+            },
+            "addAttachment": {
+                "href": "/api/v3/work_packages/45/attachments",
+                "method": "post"
+            },
+            "fileLinks": {
+                "href": "/api/v3/work_packages/45/file_links"
+            },
+            "addFileLink": {
+                "href": "/api/v3/work_packages/45/file_links",
+                "method": "post"
+            },
+            "self": {
+                "href": "/api/v3/work_packages/45",
+                "title": "Check discord web hook notification"
+            },
+            "update": {
+                "href": "/api/v3/work_packages/45/form",
+                "method": "post"
+            },
+            "schema": {
+                "href": "/api/v3/work_packages/schemas/6-1"
+            },
+            "updateImmediately": {
+                "href": "/api/v3/work_packages/45",
+                "method": "patch"
+            },
+            "delete": {
+                "href": "/api/v3/work_packages/45",
+                "method": "delete"
+            },
+            "logTime": {
+                "href": "/api/v3/time_entries",
+                "title": "Log time on Check discord web hook notification"
+            },
+            "move": {
+                "href": "/work_packages/45/move/new",
+                "type": "text/html",
+                "title": "Move Check discord web hook notification"
+            },
+            "copy": {
+                "href": "/work_packages/45/copy",
+                "title": "Copy Check discord web hook notification"
+            },
+            "pdf": {
+                "href": "/work_packages/45.pdf",
+                "type": "application/pdf",
+                "title": "Export as PDF"
+            },
+            "atom": {
+                "href": "/work_packages/45.atom",
+                "type": "application/rss+xml",
+                "title": "Atom feed"
+            },
+            "availableRelationCandidates": {
+                "href": "/api/v3/work_packages/45/available_relation_candidates",
+                "title": "Potential work packages to relate to"
+            },
+            "customFields": {
+                "href": "/projects/devkraft/settings/custom_fields",
+                "type": "text/html",
+                "title": "Custom fields"
+            },
+            "configureForm": {
+                "href": "/types/1/edit?tab=form_configuration",
+                "type": "text/html",
+                "title": "Configure form"
+            },
+            "activities": {
+                "href": "/api/v3/work_packages/45/activities"
+            },
+            "availableWatchers": {
+                "href": "/api/v3/work_packages/45/available_watchers"
+            },
+            "relations": {
+                "href": "/api/v3/work_packages/45/relations"
+            },
+            "revisions": {
+                "href": "/api/v3/work_packages/45/revisions"
+            },
+            "watchers": {
+                "href": "/api/v3/work_packages/45/watchers"
+            },
+            "addWatcher": {
+                "href": "/api/v3/work_packages/45/watchers",
+                "method": "post",
+                "payload": {
+                    "user": {
+                        "href": "/api/v3/users/{user_id}"
+                    }
+                },
+                "templated": true
+            },
+            "removeWatcher": {
+                "href": "/api/v3/work_packages/45/watchers/{user_id}",
+                "method": "delete",
+                "templated": true
+            },
+            "addRelation": {
+                "href": "/api/v3/work_packages/45/relations",
+                "method": "post",
+                "title": "Add relation"
+            },
+            "addChild": {
+                "href": "/api/v3/projects/devkraft/work_packages",
+                "method": "post",
+                "title": "Add child of Check discord web hook notification"
+            },
+            "changeParent": {
+                "href": "/api/v3/work_packages/45",
+                "method": "patch",
+                "title": "Change parent of Check discord web hook notification"
+            },
+            "addComment": {
+                "href": "/api/v3/work_packages/45/activities",
+                "method": "post",
+                "title": "Add comment"
+            },
+            "previewMarkup": {
+                "href": "/api/v3/render/markdown?context=/api/v3/work_packages/45",
+                "method": "post"
+            },
+            "timeEntries": {
+                "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2245%22%5D%7D%7D%5D",
+                "title": "Time entries"
+            },
+            "ancestors": [],
+            "category": {
+                "href": null
+            },
+            "type": {
+                "href": "/api/v3/types/1",
+                "title": "Task"
+            },
+            "priority": {
+                "href": "/api/v3/priorities/8",
+                "title": "Normal"
+            },
+            "project": {
+                "href": "/api/v3/projects/6",
+                "title": "DevKraft"
+            },
+            "status": {
+                "href": "/api/v3/statuses/1",
+                "title": "New"
+            },
+            "author": {
+                "href": "/api/v3/users/7",
+                "title": "Arsh Deep Singh"
+            },
+            "responsible": {
+                "href": "/api/v3/users/7",
+                "title": "Arsh Deep Singh"
+            },
+            "assignee": {
+                "href": "/api/v3/users/7",
+                "title": "Arsh Deep Singh"
+            },
+            "version": {
+                "href": null
+            },
+            "parent": {
+                "href": null,
+                "title": null
+            },
+            "budget": {
+                "href": null
+            },
+            "customActions": [],
+            "logCosts": {
+                "href": "/work_packages/45/cost_entries/new",
+                "type": "text/html",
+                "title": "Log costs on Check discord web hook notification"
+            },
+            "showCosts": {
+                "href": "/projects/6/cost_reports?fields%5B%5D=WorkPackageId\u0026operators%5BWorkPackageId%5D=%3D\u0026set_filter=1\u0026values%5BWorkPackageId%5D=45",
+                "type": "text/html",
+                "title": "Show cost entries"
+            },
+            "costsByType": {
+                "href": "/api/v3/work_packages/45/summarized_costs_by_type"
+            },
+            "github": {
+                "href": "/work_packages/45/tabs/github",
+                "title": "github"
+            },
+            "github_pull_requests": {
+                "href": "/api/v3/work_packages/45/github_pull_requests",
+                "title": "GitHub pull requests"
+            },
+            "convertBCF": {
+                "href": "/api/bcf/2.1/projects/devkraft/topics",
+                "title": "Convert to BCF",
+                "payload": {
+                    "reference_links": [
+                        "/api/v3/work_packages/45"
+                    ]
+                },
+                "method": "post"
+            }
+        }
+    }
+}
+{
+    "action": "time_entry:created",
+    "time_entry": {
+        "_type": "TimeEntry",
+        "id": 6,
+        "comment": {
+            "format": "plain",
+            "raw": "",
+            "html": ""
+        },
+        "spentOn": "2023-07-10",
+        "hours": "PT1H30M",
+        "createdAt": "2023-07-10T05:29:41Z",
+        "updatedAt": "2023-07-10T05:29:41Z",
+        "_embedded": {
+            "project": {
+                "_type": "Project",
+                "id": 6,
+                "identifier": "devkraft",
+                "name": "DevKraft",
+                "active": true,
+                "public": false,
+                "description": {
+                    "format": "markdown",
+                    "raw": "",
+                    "html": ""
+                },
+                "createdAt": "2023-07-07T10:27:33Z",
+                "updatedAt": "2023-07-07T10:27:33Z",
+                "statusExplanation": {
+                    "format": "markdown",
+                    "raw": "",
+                    "html": ""
+                },
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/projects/6",
+                        "title": "DevKraft"
+                    },
+                    "createWorkPackage": {
+                        "href": "/api/v3/projects/6/work_packages/form",
+                        "method": "post"
+                    },
+                    "createWorkPackageImmediately": {
+                        "href": "/api/v3/projects/6/work_packages",
+                        "method": "post"
+                    },
+                    "workPackages": {
+                        "href": "/api/v3/projects/6/work_packages"
+                    },
+                    "storages": [],
+                    "categories": {
+                        "href": "/api/v3/projects/6/categories"
+                    },
+                    "versions": {
+                        "href": "/api/v3/projects/6/versions"
+                    },
+                    "memberships": {
+                        "href": "/api/v3/memberships?filters=%5B%7B%22project%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%226%22%5D%7D%7D%5D"
+                    },
+                    "types": {
+                        "href": "/api/v3/projects/6/types"
+                    },
+                    "update": {
+                        "href": "/api/v3/projects/6/form",
+                        "method": "post"
+                    },
+                    "updateImmediately": {
+                        "href": "/api/v3/projects/6",
+                        "method": "patch"
+                    },
+                    "delete": {
+                        "href": "/api/v3/projects/6",
+                        "method": "delete"
+                    },
+                    "schema": {
+                        "href": "/api/v3/projects/schema"
+                    },
+                    "ancestors": [],
+                    "parent": {
+                        "href": null
+                    },
+                    "status": {
+                        "href": null
+                    }
+                }
+            },
+            "workPackage": {
+                "_type": "WorkPackage",
+                "id": 45,
+                "lockVersion": 12,
+                "subject": "Check discord web hook notification",
+                "description": {
+                    "format": "markdown",
+                    "raw": "",
+                    "html": ""
+                },
+                "scheduleManually": false,
+                "startDate": "2023-07-10",
+                "dueDate": "2023-07-10",
+                "derivedStartDate": null,
+                "derivedDueDate": null,
+                "estimatedTime": null,
+                "derivedEstimatedTime": null,
+                "duration": "P1D",
+                "ignoreNonWorkingDays": false,
+                "spentTime": "PT0S",
+                "percentageDone": 0,
+                "createdAt": "2023-07-10T04:39:31Z",
+                "updatedAt": "2023-07-10T05:17:01Z",
+                "laborCosts": "0.00 EUR",
+                "materialCosts": "0.00 EUR",
+                "overallCosts": "0.00 EUR",
+                "remainingTime": null,
+                "_links": {
+                    "attachments": {
+                        "href": "/api/v3/work_packages/45/attachments"
+                    },
+                    "addAttachment": {
+                        "href": "/api/v3/work_packages/45/attachments",
+                        "method": "post"
+                    },
+                    "fileLinks": {
+                        "href": "/api/v3/work_packages/45/file_links"
+                    },
+                    "addFileLink": {
+                        "href": "/api/v3/work_packages/45/file_links",
+                        "method": "post"
+                    },
+                    "self": {
+                        "href": "/api/v3/work_packages/45",
+                        "title": "Check discord web hook notification"
+                    },
+                    "update": {
+                        "href": "/api/v3/work_packages/45/form",
+                        "method": "post"
+                    },
+                    "schema": {
+                        "href": "/api/v3/work_packages/schemas/6-1"
+                    },
+                    "updateImmediately": {
+                        "href": "/api/v3/work_packages/45",
+                        "method": "patch"
+                    },
+                    "delete": {
+                        "href": "/api/v3/work_packages/45",
+                        "method": "delete"
+                    },
+                    "logTime": {
+                        "href": "/api/v3/time_entries",
+                        "title": "Log time on Check discord web hook notification"
+                    },
+                    "move": {
+                        "href": "/work_packages/45/move/new",
+                        "type": "text/html",
+                        "title": "Move Check discord web hook notification"
+                    },
+                    "copy": {
+                        "href": "/work_packages/45/copy",
+                        "title": "Copy Check discord web hook notification"
+                    },
+                    "pdf": {
+                        "href": "/work_packages/45.pdf",
+                        "type": "application/pdf",
+                        "title": "Export as PDF"
+                    },
+                    "atom": {
+                        "href": "/work_packages/45.atom",
+                        "type": "application/rss+xml",
+                        "title": "Atom feed"
+                    },
+                    "availableRelationCandidates": {
+                        "href": "/api/v3/work_packages/45/available_relation_candidates",
+                        "title": "Potential work packages to relate to"
+                    },
+                    "customFields": {
+                        "href": "/projects/devkraft/settings/custom_fields",
+                        "type": "text/html",
+                        "title": "Custom fields"
+                    },
+                    "configureForm": {
+                        "href": "/types/1/edit?tab=form_configuration",
+                        "type": "text/html",
+                        "title": "Configure form"
+                    },
+                    "activities": {
+                        "href": "/api/v3/work_packages/45/activities"
+                    },
+                    "availableWatchers": {
+                        "href": "/api/v3/work_packages/45/available_watchers"
+                    },
+                    "relations": {
+                        "href": "/api/v3/work_packages/45/relations"
+                    },
+                    "revisions": {
+                        "href": "/api/v3/work_packages/45/revisions"
+                    },
+                    "watchers": {
+                        "href": "/api/v3/work_packages/45/watchers"
+                    },
+                    "addWatcher": {
+                        "href": "/api/v3/work_packages/45/watchers",
+                        "method": "post",
+                        "payload": {
+                            "user": {
+                                "href": "/api/v3/users/{user_id}"
+                            }
+                        },
+                        "templated": true
+                    },
+                    "removeWatcher": {
+                        "href": "/api/v3/work_packages/45/watchers/{user_id}",
+                        "method": "delete",
+                        "templated": true
+                    },
+                    "addRelation": {
+                        "href": "/api/v3/work_packages/45/relations",
+                        "method": "post",
+                        "title": "Add relation"
+                    },
+                    "addChild": {
+                        "href": "/api/v3/projects/devkraft/work_packages",
+                        "method": "post",
+                        "title": "Add child of Check discord web hook notification"
+                    },
+                    "changeParent": {
+                        "href": "/api/v3/work_packages/45",
+                        "method": "patch",
+                        "title": "Change parent of Check discord web hook notification"
+                    },
+                    "addComment": {
+                        "href": "/api/v3/work_packages/45/activities",
+                        "method": "post",
+                        "title": "Add comment"
+                    },
+                    "previewMarkup": {
+                        "href": "/api/v3/render/markdown?context=/api/v3/work_packages/45",
+                        "method": "post"
+                    },
+                    "timeEntries": {
+                        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2245%22%5D%7D%7D%5D",
+                        "title": "Time entries"
+                    },
+                    "ancestors": [],
+                    "category": {
+                        "href": null
+                    },
+                    "type": {
+                        "href": "/api/v3/types/1",
+                        "title": "Task"
+                    },
+                    "priority": {
+                        "href": "/api/v3/priorities/8",
+                        "title": "Normal"
+                    },
+                    "project": {
+                        "href": "/api/v3/projects/6",
+                        "title": "DevKraft"
+                    },
+                    "status": {
+                        "href": "/api/v3/statuses/1",
+                        "title": "New"
+                    },
+                    "author": {
+                        "href": "/api/v3/users/7",
+                        "title": "Arsh Deep Singh"
+                    },
+                    "responsible": {
+                        "href": "/api/v3/users/7",
+                        "title": "Arsh Deep Singh"
+                    },
+                    "assignee": {
+                        "href": "/api/v3/users/7",
+                        "title": "Arsh Deep Singh"
+                    },
+                    "version": {
+                        "href": null
+                    },
+                    "parent": {
+                        "href": null,
+                        "title": null
+                    },
+                    "budget": {
+                        "href": null
+                    },
+                    "customActions": [],
+                    "logCosts": {
+                        "href": "/work_packages/45/cost_entries/new",
+                        "type": "text/html",
+                        "title": "Log costs on Check discord web hook notification"
+                    },
+                    "showCosts": {
+                        "href": "/projects/6/cost_reports?fields%5B%5D=WorkPackageId\u0026operators%5BWorkPackageId%5D=%3D\u0026set_filter=1\u0026values%5BWorkPackageId%5D=45",
+                        "type": "text/html",
+                        "title": "Show cost entries"
+                    },
+                    "costsByType": {
+                        "href": "/api/v3/work_packages/45/summarized_costs_by_type"
+                    },
+                    "github": {
+                        "href": "/work_packages/45/tabs/github",
+                        "title": "github"
+                    },
+                    "github_pull_requests": {
+                        "href": "/api/v3/work_packages/45/github_pull_requests",
+                        "title": "GitHub pull requests"
+                    },
+                    "convertBCF": {
+                        "href": "/api/bcf/2.1/projects/devkraft/topics",
+                        "title": "Convert to BCF",
+                        "payload": {
+                            "reference_links": [
+                                "/api/v3/work_packages/45"
+                            ]
+                        },
+                        "method": "post"
+                    }
+                }
+            },
+            "user": {
+                "_type": "User",
+                "id": 7,
+                "name": "Arsh Deep Singh",
+                "createdAt": "2023-07-07T08:23:04Z",
+                "updatedAt": "2023-07-10T04:15:36Z",
+                "login": "arshdeep@devkraft.in",
+                "admin": true,
+                "firstName": "Arsh Deep",
+                "lastName": "Singh",
+                "email": "arshdeep@devkraft.in",
+                "avatar": "https://secure.gravatar.com/avatar/4565e8b956e03d46e31e127123f5344a?default=404\u0026secure=true",
+                "status": "active",
+                "identityUrl": null,
+                "language": "en",
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/users/7",
+                        "title": "Arsh Deep Singh"
+                    },
+                    "memberships": {
+                        "href": "/api/v3/memberships?filters=%5B%7B%22principal%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%227%22%5D%7D%7D%5D",
+                        "title": "Members"
+                    },
+                    "showUser": {
+                        "href": "/users/7",
+                        "type": "text/html"
+                    },
+                    "updateImmediately": {
+                        "href": "/api/v3/users/7",
+                        "title": "Update arshdeep@devkraft.in",
+                        "method": "patch"
+                    },
+                    "lock": {
+                        "href": "/api/v3/users/7/lock",
+                        "title": "Set lock on arshdeep@devkraft.in",
+                        "method": "post"
+                    },
+                    "delete": {
+                        "href": "/api/v3/users/7",
+                        "title": "Delete arshdeep@devkraft.in",
+                        "method": "delete"
+                    }
+                }
+            },
+            "activity": {
+                "_type": "TimeEntriesActivity",
+                "id": 3,
+                "name": "Development",
+                "position": 3,
+                "default": false,
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/time_entries/activities/3",
+                        "title": "Development"
+                    },
+                    "projects": []
+                }
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "/api/v3/time_entries/6"
+            },
+            "updateImmediately": {
+                "href": "/api/v3/time_entries/6",
+                "method": "patch"
+            },
+            "update": {
+                "href": "/api/v3/time_entries/6/form",
+                "method": "post"
+            },
+            "delete": {
+                "href": "/api/v3/time_entries/6",
+                "method": "delete"
+            },
+            "schema": {
+                "href": "/api/v3/time_entries/schema"
+            },
+            "project": {
+                "href": "/api/v3/projects/6",
+                "title": "DevKraft"
+            },
+            "workPackage": {
+                "href": "/api/v3/work_packages/45",
+                "title": "Check discord web hook notification"
+            },
+            "user": {
+                "href": "/api/v3/users/7",
+                "title": "Arsh Deep Singh"
+            },
+            "activity": {
+                "href": "/api/v3/time_entries/activities/3",
+                "title": "Development"
+            }
+        }
+    }
+}
+{
+    "action": "work_package:created",
+    "work_package": {
+        "_type": "WorkPackage",
+        "id": 46,
+        "lockVersion": 0,
+        "subject": "Test Document",
+        "description": {
+            "format": "markdown",
+            "raw": "",
+            "html": ""
+        },
+        "scheduleManually": false,
+        "startDate": null,
+        "dueDate": null,
+        "derivedStartDate": null,
+        "derivedDueDate": null,
+        "estimatedTime": null,
+        "derivedEstimatedTime": null,
+        "duration": null,
+        "ignoreNonWorkingDays": false,
+        "spentTime": "PT0S",
+        "percentageDone": 0,
+        "createdAt": "2023-07-10T06:02:43Z",
+        "updatedAt": "2023-07-10T06:02:43Z",
+        "laborCosts": "0.00 EUR",
+        "materialCosts": "0.00 EUR",
+        "overallCosts": "0.00 EUR",
+        "remainingTime": null,
+        "_embedded": {
+            "attachments": {
+                "_type": "Collection",
+                "total": 0,
+                "count": 0,
+                "_embedded": {
+                    "elements": []
+                },
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/work_packages/46/attachments"
+                    }
+                }
+            },
+            "relations": {
+                "_type": "Collection",
+                "total": 0,
+                "count": 0,
+                "_embedded": {
+                    "elements": []
+                },
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/work_packages/46/relations"
+                    }
+                }
+            },
+            "type": {
+                "_type": "Type",
+                "id": 1,
+                "name": "Task",
+                "color": "#1A67A3",
+                "position": 1,
+                "isDefault": true,
+                "isMilestone": false,
+                "createdAt": "2023-07-05T08:04:03Z",
+                "updatedAt": "2023-07-05T08:04:03Z",
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/types/1",
+                        "title": "Task"
+                    }
+                }
+            },
+            "priority": {
+                "_type": "Priority",
+                "id": 8,
+                "name": "Normal",
+                "position": 2,
+                "color": "#74C0FC",
+                "isDefault": true,
+                "isActive": true,
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/priorities/8",
+                        "title": "Normal"
+                    }
+                }
+            },
+            "project": {
+                "_type": "Project",
+                "id": 6,
+                "identifier": "devkraft",
+                "name": "DevKraft",
+                "active": true,
+                "public": false,
+                "description": {
+                    "format": "markdown",
+                    "raw": "Internal Task management",
+                    "html": "\u003cp class=\"op-uc-p\"\u003eInternal Task management\u003c/p\u003e"
+                },
+                "createdAt": "2023-07-07T10:27:33Z",
+                "updatedAt": "2023-07-10T06:03:24Z",
+                "statusExplanation": {
+                    "format": "markdown",
+                    "raw": "",
+                    "html": ""
+                },
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/projects/6",
+                        "title": "DevKraft"
+                    },
+                    "createWorkPackage": {
+                        "href": "/api/v3/projects/6/work_packages/form",
+                        "method": "post"
+                    },
+                    "createWorkPackageImmediately": {
+                        "href": "/api/v3/projects/6/work_packages",
+                        "method": "post"
+                    },
+                    "workPackages": {
+                        "href": "/api/v3/projects/6/work_packages"
+                    },
+                    "storages": [],
+                    "categories": {
+                        "href": "/api/v3/projects/6/categories"
+                    },
+                    "versions": {
+                        "href": "/api/v3/projects/6/versions"
+                    },
+                    "memberships": {
+                        "href": "/api/v3/memberships?filters=%5B%7B%22project%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%226%22%5D%7D%7D%5D"
+                    },
+                    "types": {
+                        "href": "/api/v3/projects/6/types"
+                    },
+                    "update": {
+                        "href": "/api/v3/projects/6/form",
+                        "method": "post"
+                    },
+                    "updateImmediately": {
+                        "href": "/api/v3/projects/6",
+                        "method": "patch"
+                    },
+                    "delete": {
+                        "href": "/api/v3/projects/6",
+                        "method": "delete"
+                    },
+                    "schema": {
+                        "href": "/api/v3/projects/schema"
+                    },
+                    "ancestors": [],
+                    "parent": {
+                        "href": null
+                    },
+                    "status": {
+                        "href": null
+                    }
+                }
+            },
+            "status": {
+                "_type": "Status",
+                "id": 1,
+                "name": "New",
+                "isClosed": false,
+                "color": "#1098AD",
+                "isDefault": true,
+                "isReadonly": false,
+                "defaultDoneRatio": null,
+                "position": 1,
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/statuses/1",
+                        "title": "New"
+                    }
+                }
+            },
+            "author": {
+                "_type": "User",
+                "id": 7,
+                "name": "Arsh Deep Singh",
+                "createdAt": "2023-07-07T08:23:04Z",
+                "updatedAt": "2023-07-10T04:15:36Z",
+                "login": "arshdeep@devkraft.in",
+                "admin": true,
+                "firstName": "Arsh Deep",
+                "lastName": "Singh",
+                "email": "arshdeep@devkraft.in",
+                "avatar": "https://secure.gravatar.com/avatar/4565e8b956e03d46e31e127123f5344a?default=404\u0026secure=true",
+                "status": "active",
+                "identityUrl": null,
+                "language": "en",
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/users/7",
+                        "title": "Arsh Deep Singh"
+                    },
+                    "memberships": {
+                        "href": "/api/v3/memberships?filters=%5B%7B%22principal%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%227%22%5D%7D%7D%5D",
+                        "title": "Members"
+                    },
+                    "showUser": {
+                        "href": "/users/7",
+                        "type": "text/html"
+                    },
+                    "updateImmediately": {
+                        "href": "/api/v3/users/7",
+                        "title": "Update arshdeep@devkraft.in",
+                        "method": "patch"
+                    },
+                    "lock": {
+                        "href": "/api/v3/users/7/lock",
+                        "title": "Set lock on arshdeep@devkraft.in",
+                        "method": "post"
+                    },
+                    "delete": {
+                        "href": "/api/v3/users/7",
+                        "title": "Delete arshdeep@devkraft.in",
+                        "method": "delete"
+                    }
+                }
+            },
+            "customActions": [],
+            "costsByType": {
+                "_type": "Collection",
+                "total": 0,
+                "count": 0,
+                "_embedded": {
+                    "elements": []
+                },
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/work_packages/46/summarized_costs_by_type"
+                    }
+                }
+            }
+        },
+        "_links": {
+            "attachments": {
+                "href": "/api/v3/work_packages/46/attachments"
+            },
+            "addAttachment": {
+                "href": "/api/v3/work_packages/46/attachments",
+                "method": "post"
+            },
+            "fileLinks": {
+                "href": "/api/v3/work_packages/46/file_links"
+            },
+            "addFileLink": {
+                "href": "/api/v3/work_packages/46/file_links",
+                "method": "post"
+            },
+            "self": {
+                "href": "/api/v3/work_packages/46",
+                "title": "Test Document"
+            },
+            "update": {
+                "href": "/api/v3/work_packages/46/form",
+                "method": "post"
+            },
+            "schema": {
+                "href": "/api/v3/work_packages/schemas/6-1"
+            },
+            "updateImmediately": {
+                "href": "/api/v3/work_packages/46",
+                "method": "patch"
+            },
+            "delete": {
+                "href": "/api/v3/work_packages/46",
+                "method": "delete"
+            },
+            "logTime": {
+                "href": "/api/v3/time_entries",
+                "title": "Log time on Test Document"
+            },
+            "move": {
+                "href": "/work_packages/46/move/new",
+                "type": "text/html",
+                "title": "Move Test Document"
+            },
+            "copy": {
+                "href": "/work_packages/46/copy",
+                "title": "Copy Test Document"
+            },
+            "pdf": {
+                "href": "/work_packages/46.pdf",
+                "type": "application/pdf",
+                "title": "Export as PDF"
+            },
+            "atom": {
+                "href": "/work_packages/46.atom",
+                "type": "application/rss+xml",
+                "title": "Atom feed"
+            },
+            "availableRelationCandidates": {
+                "href": "/api/v3/work_packages/46/available_relation_candidates",
+                "title": "Potential work packages to relate to"
+            },
+            "customFields": {
+                "href": "/projects/devkraft/settings/custom_fields",
+                "type": "text/html",
+                "title": "Custom fields"
+            },
+            "configureForm": {
+                "href": "/types/1/edit?tab=form_configuration",
+                "type": "text/html",
+                "title": "Configure form"
+            },
+            "activities": {
+                "href": "/api/v3/work_packages/46/activities"
+            },
+            "availableWatchers": {
+                "href": "/api/v3/work_packages/46/available_watchers"
+            },
+            "relations": {
+                "href": "/api/v3/work_packages/46/relations"
+            },
+            "revisions": {
+                "href": "/api/v3/work_packages/46/revisions"
+            },
+            "watchers": {
+                "href": "/api/v3/work_packages/46/watchers"
+            },
+            "addWatcher": {
+                "href": "/api/v3/work_packages/46/watchers",
+                "method": "post",
+                "payload": {
+                    "user": {
+                        "href": "/api/v3/users/{user_id}"
+                    }
+                },
+                "templated": true
+            },
+            "removeWatcher": {
+                "href": "/api/v3/work_packages/46/watchers/{user_id}",
+                "method": "delete",
+                "templated": true
+            },
+            "addRelation": {
+                "href": "/api/v3/work_packages/46/relations",
+                "method": "post",
+                "title": "Add relation"
+            },
+            "addChild": {
+                "href": "/api/v3/projects/devkraft/work_packages",
+                "method": "post",
+                "title": "Add child of Test Document"
+            },
+            "changeParent": {
+                "href": "/api/v3/work_packages/46",
+                "method": "patch",
+                "title": "Change parent of Test Document"
+            },
+            "addComment": {
+                "href": "/api/v3/work_packages/46/activities",
+                "method": "post",
+                "title": "Add comment"
+            },
+            "previewMarkup": {
+                "href": "/api/v3/render/markdown?context=/api/v3/work_packages/46",
+                "method": "post"
+            },
+            "timeEntries": {
+                "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2246%22%5D%7D%7D%5D",
+                "title": "Time entries"
+            },
+            "ancestors": [],
+            "category": {
+                "href": null
+            },
+            "type": {
+                "href": "/api/v3/types/1",
+                "title": "Task"
+            },
+            "priority": {
+                "href": "/api/v3/priorities/8",
+                "title": "Normal"
+            },
+            "project": {
+                "href": "/api/v3/projects/6",
+                "title": "DevKraft"
+            },
+            "status": {
+                "href": "/api/v3/statuses/1",
+                "title": "New"
+            },
+            "author": {
+                "href": "/api/v3/users/7",
+                "title": "Arsh Deep Singh"
+            },
+            "responsible": {
+                "href": null
+            },
+            "assignee": {
+                "href": null
+            },
+            "version": {
+                "href": null
+            },
+            "parent": {
+                "href": null,
+                "title": null
+            },
+            "budget": {
+                "href": null
+            },
+            "customActions": [],
+            "logCosts": {
+                "href": "/work_packages/46/cost_entries/new",
+                "type": "text/html",
+                "title": "Log costs on Test Document"
+            },
+            "showCosts": {
+                "href": "/projects/6/cost_reports?fields%5B%5D=WorkPackageId\u0026operators%5BWorkPackageId%5D=%3D\u0026set_filter=1\u0026values%5BWorkPackageId%5D=46",
+                "type": "text/html",
+                "title": "Show cost entries"
+            },
+            "costsByType": {
+                "href": "/api/v3/work_packages/46/summarized_costs_by_type"
+            },
+            "github": {
+                "href": "/work_packages/46/tabs/github",
+                "title": "github"
+            },
+            "github_pull_requests": {
+                "href": "/api/v3/work_packages/46/github_pull_requests",
+                "title": "GitHub pull requests"
+            },
+            "convertBCF": {
+                "href": "/api/bcf/2.1/projects/devkraft/topics",
+                "title": "Convert to BCF",
+                "payload": {
+                    "reference_links": [
+                        "/api/v3/work_packages/46"
+                    ]
+                },
+                "method": "post"
+            }
+        }
+    }
+}
+{
+    "action": "attachment:created",
+    "attachment": {
+        "_type": "Attachment",
+        "id": 3,
+        "fileName": "docker.env",
+        "fileSize": 7270,
+        "description": {
+            "format": "plain",
+            "raw": "",
+            "html": ""
+        },
+        "contentType": "text/plain",
+        "digest": {
+            "algorithm": "md5",
+            "hash": "eedeb4f4a9a28c1a6fdef10017ce5491"
+        },
+        "createdAt": "2023-07-10T06:02:10Z",
+        "_embedded": {
+            "author": {
+                "_type": "User",
+                "id": 7,
+                "name": "Arsh Deep Singh",
+                "createdAt": "2023-07-07T08:23:04Z",
+                "updatedAt": "2023-07-10T04:15:36Z",
+                "login": "arshdeep@devkraft.in",
+                "admin": true,
+                "firstName": "Arsh Deep",
+                "lastName": "Singh",
+                "email": "arshdeep@devkraft.in",
+                "avatar": "https://secure.gravatar.com/avatar/4565e8b956e03d46e31e127123f5344a?default=404\u0026secure=true",
+                "status": "active",
+                "identityUrl": null,
+                "language": "en",
+                "_links": {
+                    "self": {
+                        "href": "/api/v3/users/7",
+                        "title": "Arsh Deep Singh"
+                    },
+                    "memberships": {
+                        "href": "/api/v3/memberships?filters=%5B%7B%22principal%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%227%22%5D%7D%7D%5D",
+                        "title": "Members"
+                    },
+                    "showUser": {
+                        "href": "/users/7",
+                        "type": "text/html"
+                    },
+                    "updateImmediately": {
+                        "href": "/api/v3/users/7",
+                        "title": "Update arshdeep@devkraft.in",
+                        "method": "patch"
+                    },
+                    "lock": {
+                        "href": "/api/v3/users/7/lock",
+                        "title": "Set lock on arshdeep@devkraft.in",
+                        "method": "post"
+                    },
+                    "delete": {
+                        "href": "/api/v3/users/7",
+                        "title": "Delete arshdeep@devkraft.in",
+                        "method": "delete"
+                    }
+                }
+            },
+            "container": {
+                "_type": "WorkPackage",
+                "id": 45,
+                "lockVersion": 12,
+                "subject": "Check discord web hook notification",
+                "description": {
+                    "format": "markdown",
+                    "raw": "",
+                    "html": ""
+                },
+                "scheduleManually": false,
+                "startDate": "2023-07-10",
+                "dueDate": "2023-07-10",
+                "derivedStartDate": null,
+                "derivedDueDate": null,
+                "estimatedTime": null,
+                "derivedEstimatedTime": null,
+                "duration": "P1D",
+                "ignoreNonWorkingDays": false,
+                "spentTime": "PT0S",
+                "percentageDone": 0,
+                "createdAt": "2023-07-10T04:39:31Z",
+                "updatedAt": "2023-07-10T06:02:10Z",
+                "laborCosts": "0.00 EUR",
+                "materialCosts": "0.00 EUR",
+                "overallCosts": "0.00 EUR",
+                "remainingTime": null,
+                "_links": {
+                    "attachments": {
+                        "href": "/api/v3/work_packages/45/attachments"
+                    },
+                    "addAttachment": {
+                        "href": "/api/v3/work_packages/45/attachments",
+                        "method": "post"
+                    },
+                    "fileLinks": {
+                        "href": "/api/v3/work_packages/45/file_links"
+                    },
+                    "addFileLink": {
+                        "href": "/api/v3/work_packages/45/file_links",
+                        "method": "post"
+                    },
+                    "self": {
+                        "href": "/api/v3/work_packages/45",
+                        "title": "Check discord web hook notification"
+                    },
+                    "update": {
+                        "href": "/api/v3/work_packages/45/form",
+                        "method": "post"
+                    },
+                    "schema": {
+                        "href": "/api/v3/work_packages/schemas/6-1"
+                    },
+                    "updateImmediately": {
+                        "href": "/api/v3/work_packages/45",
+                        "method": "patch"
+                    },
+                    "delete": {
+                        "href": "/api/v3/work_packages/45",
+                        "method": "delete"
+                    },
+                    "logTime": {
+                        "href": "/api/v3/time_entries",
+                        "title": "Log time on Check discord web hook notification"
+                    },
+                    "move": {
+                        "href": "/work_packages/45/move/new",
+                        "type": "text/html",
+                        "title": "Move Check discord web hook notification"
+                    },
+                    "copy": {
+                        "href": "/work_packages/45/copy",
+                        "title": "Copy Check discord web hook notification"
+                    },
+                    "pdf": {
+                        "href": "/work_packages/45.pdf",
+                        "type": "application/pdf",
+                        "title": "Export as PDF"
+                    },
+                    "atom": {
+                        "href": "/work_packages/45.atom",
+                        "type": "application/rss+xml",
+                        "title": "Atom feed"
+                    },
+                    "availableRelationCandidates": {
+                        "href": "/api/v3/work_packages/45/available_relation_candidates",
+                        "title": "Potential work packages to relate to"
+                    },
+                    "customFields": {
+                        "href": "/projects/devkraft/settings/custom_fields",
+                        "type": "text/html",
+                        "title": "Custom fields"
+                    },
+                    "configureForm": {
+                        "href": "/types/1/edit?tab=form_configuration",
+                        "type": "text/html",
+                        "title": "Configure form"
+                    },
+                    "activities": {
+                        "href": "/api/v3/work_packages/45/activities"
+                    },
+                    "availableWatchers": {
+                        "href": "/api/v3/work_packages/45/available_watchers"
+                    },
+                    "relations": {
+                        "href": "/api/v3/work_packages/45/relations"
+                    },
+                    "revisions": {
+                        "href": "/api/v3/work_packages/45/revisions"
+                    },
+                    "watchers": {
+                        "href": "/api/v3/work_packages/45/watchers"
+                    },
+                    "addWatcher": {
+                        "href": "/api/v3/work_packages/45/watchers",
+                        "method": "post",
+                        "payload": {
+                            "user": {
+                                "href": "/api/v3/users/{user_id}"
+                            }
+                        },
+                        "templated": true
+                    },
+                    "removeWatcher": {
+                        "href": "/api/v3/work_packages/45/watchers/{user_id}",
+                        "method": "delete",
+                        "templated": true
+                    },
+                    "addRelation": {
+                        "href": "/api/v3/work_packages/45/relations",
+                        "method": "post",
+                        "title": "Add relation"
+                    },
+                    "addChild": {
+                        "href": "/api/v3/projects/devkraft/work_packages",
+                        "method": "post",
+                        "title": "Add child of Check discord web hook notification"
+                    },
+                    "changeParent": {
+                        "href": "/api/v3/work_packages/45",
+                        "method": "patch",
+                        "title": "Change parent of Check discord web hook notification"
+                    },
+                    "addComment": {
+                        "href": "/api/v3/work_packages/45/activities",
+                        "method": "post",
+                        "title": "Add comment"
+                    },
+                    "previewMarkup": {
+                        "href": "/api/v3/render/markdown?context=/api/v3/work_packages/45",
+                        "method": "post"
+                    },
+                    "timeEntries": {
+                        "href": "/api/v3/time_entries?filters=%5B%7B%22work_package_id%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%2245%22%5D%7D%7D%5D",
+                        "title": "Time entries"
+                    },
+                    "ancestors": [],
+                    "category": {
+                        "href": null
+                    },
+                    "type": {
+                        "href": "/api/v3/types/1",
+                        "title": "Task"
+                    },
+                    "priority": {
+                        "href": "/api/v3/priorities/8",
+                        "title": "Normal"
+                    },
+                    "project": {
+                        "href": "/api/v3/projects/6",
+                        "title": "DevKraft"
+                    },
+                    "status": {
+                        "href": "/api/v3/statuses/1",
+                        "title": "New"
+                    },
+                    "author": {
+                        "href": "/api/v3/users/7",
+                        "title": "Arsh Deep Singh"
+                    },
+                    "responsible": {
+                        "href": "/api/v3/users/7",
+                        "title": "Arsh Deep Singh"
+                    },
+                    "assignee": {
+                        "href": "/api/v3/users/7",
+                        "title": "Arsh Deep Singh"
+                    },
+                    "version": {
+                        "href": null
+                    },
+                    "parent": {
+                        "href": null,
+                        "title": null
+                    },
+                    "budget": {
+                        "href": null
+                    },
+                    "customActions": [],
+                    "logCosts": {
+                        "href": "/work_packages/45/cost_entries/new",
+                        "type": "text/html",
+                        "title": "Log costs on Check discord web hook notification"
+                    },
+                    "showCosts": {
+                        "href": "/projects/6/cost_reports?fields%5B%5D=WorkPackageId\u0026operators%5BWorkPackageId%5D=%3D\u0026set_filter=1\u0026values%5BWorkPackageId%5D=45",
+                        "type": "text/html",
+                        "title": "Show cost entries"
+                    },
+                    "costsByType": {
+                        "href": "/api/v3/work_packages/45/summarized_costs_by_type"
+                    },
+                    "github": {
+                        "href": "/work_packages/45/tabs/github",
+                        "title": "github"
+                    },
+                    "github_pull_requests": {
+                        "href": "/api/v3/work_packages/45/github_pull_requests",
+                        "title": "GitHub pull requests"
+                    },
+                    "convertBCF": {
+                        "href": "/api/bcf/2.1/projects/devkraft/topics",
+                        "title": "Convert to BCF",
+                        "payload": {
+                            "reference_links": [
+                                "/api/v3/work_packages/45"
+                            ]
+                        },
+                        "method": "post"
+                    }
+                }
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "/api/v3/attachments/3",
+                "title": "docker.env"
+            },
+            "author": {
+                "href": "/api/v3/users/7",
+                "title": "Arsh Deep Singh"
+            },
+            "container": {
+                "href": "/api/v3/work_packages/45",
+                "title": "Check discord web hook notification"
+            },
+            "staticDownloadLocation": {
+                "href": "/api/v3/attachments/3/content"
+            },
+            "downloadLocation": {
+                "href": "/api/v3/attachments/3/content"
+            },
+            "delete": {
+                "href": "/api/v3/attachments/3",
+                "method": "delete"
+            }
+        }
+    }
+}
+{
+    "action": "project:updated",
+    "project": {
+        "_type": "Project",
+        "id": 6,
+        "identifier": "devkraft",
+        "name": "DevKraft",
+        "active": true,
+        "public": false,
+        "description": {
+            "format": "markdown",
+            "raw": "Internal Task management",
+            "html": "\u003cp class=\"op-uc-p\"\u003eInternal Task management\u003c/p\u003e"
+        },
+        "createdAt": "2023-07-07T10:27:33Z",
+        "updatedAt": "2023-07-10T06:03:24Z",
+        "statusExplanation": {
+            "format": "markdown",
+            "raw": "",
+            "html": ""
+        },
+        "_links": {
+            "self": {
+                "href": "/api/v3/projects/6",
+                "title": "DevKraft"
+            },
+            "createWorkPackage": {
+                "href": "/api/v3/projects/6/work_packages/form",
+                "method": "post"
+            },
+            "createWorkPackageImmediately": {
+                "href": "/api/v3/projects/6/work_packages",
+                "method": "post"
+            },
+            "workPackages": {
+                "href": "/api/v3/projects/6/work_packages"
+            },
+            "storages": [],
+            "categories": {
+                "href": "/api/v3/projects/6/categories"
+            },
+            "versions": {
+                "href": "/api/v3/projects/6/versions"
+            },
+            "memberships": {
+                "href": "/api/v3/memberships?filters=%5B%7B%22project%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%226%22%5D%7D%7D%5D"
+            },
+            "types": {
+                "href": "/api/v3/projects/6/types"
+            },
+            "update": {
+                "href": "/api/v3/projects/6/form",
+                "method": "post"
+            },
+            "updateImmediately": {
+                "href": "/api/v3/projects/6",
+                "method": "patch"
+            },
+            "delete": {
+                "href": "/api/v3/projects/6",
+                "method": "delete"
+            },
+            "schema": {
+                "href": "/api/v3/projects/schema"
+            },
+            "ancestors": [],
+            "parent": {
+                "href": null
+            },
+            "status": {
+                "href": null
+            }
+        }
+    }
+}
+{
+    "action": "project:created",
+    "project": {
+        "_type": "Project",
+        "id": 7,
+        "identifier": "generative-ai",
+        "name": "Generative AI",
+        "active": true,
+        "public": false,
+        "description": {
+            "format": "markdown",
+            "raw": "",
+            "html": ""
+        },
+        "createdAt": "2023-07-10T06:04:27Z",
+        "updatedAt": "2023-07-10T06:04:27Z",
+        "statusExplanation": {
+            "format": "markdown",
+            "raw": "",
+            "html": ""
+        },
+        "_links": {
+            "self": {
+                "href": "/api/v3/projects/7",
+                "title": "Generative AI"
+            },
+            "createWorkPackage": {
+                "href": "/api/v3/projects/7/work_packages/form",
+                "method": "post"
+            },
+            "createWorkPackageImmediately": {
+                "href": "/api/v3/projects/7/work_packages",
+                "method": "post"
+            },
+            "workPackages": {
+                "href": "/api/v3/projects/7/work_packages"
+            },
+            "storages": [],
+            "categories": {
+                "href": "/api/v3/projects/7/categories"
+            },
+            "versions": {
+                "href": "/api/v3/projects/7/versions"
+            },
+            "memberships": {
+                "href": "/api/v3/memberships?filters=%5B%7B%22project%22%3A%7B%22operator%22%3A%22%3D%22%2C%22values%22%3A%5B%227%22%5D%7D%7D%5D"
+            },
+            "types": {
+                "href": "/api/v3/projects/7/types"
+            },
+            "update": {
+                "href": "/api/v3/projects/7/form",
+                "method": "post"
+            },
+            "updateImmediately": {
+                "href": "/api/v3/projects/7",
+                "method": "patch"
+            },
+            "delete": {
+                "href": "/api/v3/projects/7",
+                "method": "delete"
+            },
+            "schema": {
+                "href": "/api/v3/projects/schema"
+            },
+            "ancestors": [],
+            "parent": {
+                "href": null
+            },
+            "status": {
+                "href": null
+            }
+        }
+    }
+}
